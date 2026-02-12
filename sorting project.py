@@ -27,3 +27,17 @@ def insertion_sort(arr):
 #insertion sort builds the final sorted array one at a time.
 # time complexity= 0(n^2)
 
+
+#SELECTION SORT 
+def selection_sort(arr):
+    n=len(arr)
+    for i in range(n):
+        min_idx=i
+        for j in range(i+1,n):
+            if arr[j]<arr[min_idx]:
+                min_idx=j
+        arr[i],arr[min_idx]=arr[min_idx],arr[i]
+    return arr
+#selection sort repeatedly selects the smallest element from the unsorted portion and moves it to the beginning.
+#time complexity=0(n^2)
+ 
