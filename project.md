@@ -18,7 +18,9 @@ Demonstrate theoretical time complexity in practice
 Build a simple, reusable terminal application
 
 SORTING ALGORITHMS IMPLEMENTED
+
 1 Bubble Sort:
+
 Compares adjacent elements repeatedly
 
 Swaps elements when they are in the wrong order
