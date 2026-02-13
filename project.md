@@ -17,7 +17,7 @@ The tool helps demonstrate the practical impact of algorithmic time complexity u
 - Demonstrate theoretical time complexity in practice
 
 - Build a simple, reusable terminal application
-
+---
 **SORTING ALGORITHMS IMPLEMENTED**
 
 ***1 Bubble Sort:***
@@ -35,7 +35,7 @@ The tool helps demonstrate the practical impact of algorithmic time complexity u
 - Average Case: O(n²)
 
 - Worst Case: O(n²)
-
+---
 ***2 INSERTION SORT:***
 - Builds the sorted list one element at a time
 
@@ -48,7 +48,7 @@ The tool helps demonstrate the practical impact of algorithmic time complexity u
 - Average Case: O(n²)
 
 - Worst Case: O(n²)
-
+---
 *MERGE SORT:*
 -Uses a divide-and-conquer approach
 
@@ -61,7 +61,7 @@ The tool helps demonstrate the practical impact of algorithmic time complexity u
 - Average Case: O(n log n)
 
 - Worst Case: O(n log n)
-
+---
 *QUICK SORT:*
 
 - Selects a pivot element
@@ -70,14 +70,14 @@ The tool helps demonstrate the practical impact of algorithmic time complexity u
 
 - Recursively sorts sublists
 
-- *TIME COMPLEXITY 8
+- *TIME COMPLEXITY*
 
 - Best Case: O(n log n)
 
 - Average Case: O(n log n)
 
 - Worst Case: O(n²)
-
+---
 ***HOW THE TOOLS WORK:***
 
 - The user runs the program from the terminal
@@ -118,7 +118,7 @@ Insertion Sort:  1.0875 seconds
 Selection Sort:  1.9543 seconds
 Merge Sort:      0.0289 seconds
 Quick Sort:      0.0217 seconds
-
+---
 **OBSERVATIONS:**
 
 - Quadratic algorithms (Bubble, Insertion, Selection) scale poorly
@@ -128,7 +128,7 @@ Quick Sort:      0.0217 seconds
 - Quick Sort often performs faster than Merge Sort in practice
 
 - Performance differences increase as input size grows.
-
+---
 **LIMITATIONS:**
 
 - Memory usage is not analyzed
@@ -136,7 +136,7 @@ Quick Sort:      0.0217 seconds
 - Execution time varies based on system performance
 
 - Worst-case behavior of Quick Sort is not optimized in this version
-
+---
 **FUTURE ENHANCEMENT:**
 
 - Optimize Quick Sort using randomized pivots
@@ -161,7 +161,7 @@ Quick Sort:      0.0217 seconds
 - Experience with terminal-based applications
 
 - Improved software organization and documentation
-
+---
 ***Conclusion:***
 
 This project highlights the importance of algorithm selection in software development.
