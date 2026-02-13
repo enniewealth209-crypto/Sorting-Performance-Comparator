@@ -108,16 +108,16 @@ The tool helps demonstrate the practical impact of algorithmic time complexity u
 
 - This ensures a fair comparison across algorithms
 
-##Sample Terminal Output:
+*Sample Terminal Output:*
 Enter number of elements: 10000
 
 Sorting 10000 elements...
 
-Bubble Sort:     2.4312 seconds
-Insertion Sort:  1.0875 seconds
-Selection Sort:  1.9543 seconds
-Merge Sort:      0.0289 seconds
-Quick Sort:      0.0217 seconds
+- Bubble Sort:     2.4312 seconds
+- Insertion Sort:  1.0875 seconds
+- Selection Sort:  1.9543 seconds
+- Merge Sort:      0.0289 seconds
+- Quick Sort:      0.0217 seconds
 ---
 **OBSERVATIONS:**
 
