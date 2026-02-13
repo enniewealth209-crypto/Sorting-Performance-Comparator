@@ -22,6 +22,17 @@ The tool helps demonstrate the practical impact of algorithmic time complexity u
 
 ***1 Bubble Sort:***
 
+'''
+# BUBBLE SORT
+def bubble_sort(arr):
+    n=len(arr)
+    for i in range(n):
+        for j in range(0,n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j],arr[j+1]=arr[j+1],arr[j]
+                return arr
+    bubble_sort
+    '''
 - Compares adjacent elements repeatedly
 
 - Swaps elements when they are in the wrong order
